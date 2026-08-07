@@ -1,0 +1,19 @@
+aviation_assessment_system/
+├── app.py                  # Module 5: Streamlit Dashboard
+├── requirements.txt        # Project Dependencies
+├── data/
+│   ├── raw/                # Original telemetry.csv
+│   └── processed/          # Cleaned/Balanced data
+├── models/
+│   ├── base/               # RF, XGB, GB, SVM, LSTM files
+│   ├── ensemble/           # Stacking Meta-Model
+│   └── preprocessor.pkl    # Scaler & Encoder
+├── src/
+│   ├── preprocessing.py    # Module 1
+│   ├── training.py         # Module 2
+│   ├── evaluation.py       # Module 3
+│   └── prediction.py       # Module 4
+├── reports/
+│   ├── figures/            # Confusion Matrices, Plots
+│   └── metrics/            # Accuracy/F1 Reports
+└── logs/                   # System Logs
